@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <mj-title>Invitation: EMERGE Conference 2.0</mj-title>
+    <mj-preview>We're excited to invite you back to EMERGE Conference 2.0 on Saturday, Nov 7, 2026!</mj-preview>
+
+    <!-- Google Font: Raleway -->
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap" />
+
+    <!-- Global Attribute Styling -->
+    <mj-attributes>
+      <mj-all font-family="'Raleway', Helvetica, Arial, sans-serif" color="#222222" />
+      <mj-text font-size="15px" line-height="24px" padding="0px" />
+      <mj-section padding="0px" />
+      
+      <!-- Custom Reusable Classes -->
+      <mj-class name="hero-title" font-size="30px" line-height="36px" font-weight="800" color="#FFFFFF" align="center" />
+      <mj-class name="section-heading" font-size="20px" line-height="26px" font-weight="700" color="#0B3C26" align="center" />
+      <mj-class name="body-text" font-size="15px" line-height="24px" color="#333333" />
+      <mj-class name="card-label" font-size="12px" line-height="16px" font-weight="700" color="#25D366" text-transform="uppercase" />
+      <mj-class name="card-value" font-size="15px" line-height="20px" font-weight="700" color="#FFFFFF" />
+    </mj-attributes>
+
+    <!-- Custom CSS Hover Effects -->
+    <mj-style>
+      .cta-button a:hover {
+      }
+      .link-style {
+        color: #0B3C26;
+        text-decoration: underline;
+        font-weight: 600;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="600px" background-color="#F2F4F3">
+
+    <!-- Hero Banner Section -->
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-image 
+          src="./images/emerge.png" 
+          alt="EMERGE Conference 2.0 Poster" 
+          padding="0px" 
+          fluid-on-mobile="true" /> 
+      </mj-column>
+    </mj-section>
+
+    <!-- Invitation Body Message -->
+    <mj-section background-color="#FFFFFF" padding="35px 25px 20px 25px">
+      <mj-column>
+        <mj-text mj-class="body-text" font-weight="700" font-size="17px" color="#0B3C26">
+          Dear Beloved,
+        </mj-text>
+        
+        <mj-spacer height="12px" />
+
+        <mj-text mj-class="body-text">
+          We're excited to invite you back!
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-text mj-class="body-text">
+          You were part of the first edition of <strong>EMERGE Conference</strong>, and as we prepare for another impactful gathering, we'd love to have you join us once again.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-text mj-class="body-text">
+          The <strong>Young Professionals Forum (YPF), Ogun West Chapter</strong>, is pleased to invite you to <strong>EMERGE Conference 2.0</strong>—a gathering designed to inspire growth, encourage excellence, and challenge young professionals to make a meaningful difference in their communities and beyond.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-text mj-class="body-text">
+          We believe that the journey towards excellence is one worth taking together, and your presence at the first edition makes you an important part of the EMERGE story. As we build on that experience, we're looking forward to another opportunity to connect, learn, share ideas, and be inspired to do more.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Key Details Card Section -->
+    <mj-section background-color="#FFFFFF" padding="0px 0px 0px 50px">
+      <mj-column width="100%" padding="20px" border-radius="6px">
+        <!-- Date -->
+        <mj-text padding-bottom="12px">Date: <strong>Saturday, 7 November 2026</strong></mj-text>
+        <!-- Time -->
+        <mj-text padding-bottom="12px">Time: <strong> 9:00 AM</strong></mj-text>
+        <!-- Venue -->
+        <mj-text padding-bottom="12px">Venue: <strong>DLBC Headquarters, Ilo-Awela, Ota, Ogun State</strong></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Call to Action Button Section -->
+    <mj-section background-color="#FFFFFF" padding="10px 25px 30px 25px">
+      <mj-column>
+        <mj-button href="https://bit.ly/Emergeconf26" background-color="#002717" color="#fff" font-size="16px" font-weight="800" border-radius="4px" inner-padding="16px 32px" css-class="cta-button">
+          REGISTER FOR EMERGE 2.0 NOW
+        </mj-button>
+        
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Closing Message -->
+    <mj-section background-color="#FFFFFF" padding="0px 25px 35px 25px">
+      <mj-column>
+        <mj-text mj-class="body-text">
+          This is more than another conference; it's an opportunity to reconnect with a community of forward-thinking individuals committed to personal growth, professional excellence, and positive impact.
+        </mj-text>
+
+        <mj-spacer height="12px" />
+
+        <mj-text mj-class="body-text">
+          We would be delighted to have you with us again. Kindly register using the link above and make plans to attend.
+        </mj-text>
+
+        <mj-spacer height="15px" />
+
+        <mj-text mj-class="body-text">
+          We look forward to welcoming you to <strong>EMERGE Conference 2.0!</strong>
+        </mj-text>
+
+        <mj-spacer height="20px" />
+
+        <mj-text mj-class="body-text" line-height="22px">
+          Warm regards,<br />
+          <strong>Young Professionals Forum (YPF)</strong><br />
+          <span style="color: #0B3C26;">Ogun West Chapter</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer & Social Handles -->
+    <mj-section background-color="#002717" padding="25px 20px">
+      <mj-column>
+        <mj-text align="center" color="#A3E6B1" font-size="12px" font-weight="600" padding-bottom="8px">
+          CONNECT WITH US
+        </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-size="13px" line-height="20px">
+          YouTube: <strong>@Ypfota</strong> &nbsp;|&nbsp; Facebook & Instagram: <strong>@YPFOgunWest</strong>
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-text align="center" color="#669977" font-size="11px">
+          © 2026 Young Professionals Forum (YPF), Ogun West Chapter. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
